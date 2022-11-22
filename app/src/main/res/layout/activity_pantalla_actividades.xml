@@ -43,7 +43,7 @@
         android:id="@+id/imageView"
         android:layout_width="102dp"
         android:layout_height="117dp"
-        android:contentDescription="TODO"
+        android:contentDescription="@string/ll"
         android:rotationY="-180"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -119,18 +119,6 @@
         app:srcCompat="@drawable/imagen22" />
 
     <ImageButton
-        android:id="@+id/imageButtonImages"
-        android:layout_width="173dp"
-        android:layout_height="171dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.138"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.651"
-        app:srcCompat="@drawable/imagen25" />
-
-    <ImageButton
         android:id="@+id/imageButtonAudio"
         android:layout_width="176dp"
         android:layout_height="182dp"
@@ -143,27 +131,27 @@
         app:srcCompat="@drawable/imagen25" />
 
     <ImageButton
-        android:id="@+id/imageButtonVideo"
-        android:layout_width="156dp"
-        android:layout_height="175dp"
+        android:id="@+id/imageButtonChat"
+        android:layout_width="178dp"
+        android:layout_height="172dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96"
-        app:srcCompat="@drawable/imagen26" />
+        app:layout_constraintVertical_bias="0.962"
+        app:srcCompat="@drawable/imagen27" />
 
     <ImageButton
-        android:id="@+id/imageButtonChat"
-        android:layout_width="195dp"
-        android:layout_height="170dp"
+        android:id="@+id/imageButton"
+        android:layout_width="187dp"
+        android:layout_height="181dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96"
-        app:srcCompat="@drawable/imagen27" />
+        app:layout_constraintVertical_bias="0.649"
+        app:srcCompat="@drawable/image_images" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

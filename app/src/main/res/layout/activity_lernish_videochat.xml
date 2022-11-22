@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:background="@color/white"
     android:gravity="bottom"
     tools:context=".MainActivity"
     tools:ignore="MissingDefaultResource">
@@ -34,30 +35,11 @@
         android:textColor="#000000"
         android:textSize="20sp" />
 
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="80dp"
-        android:layout_height="70dp"
-        android:layout_row="0"
-        android:layout_column="2"
-        android:padding="1dp"
-        android:rotationY="-180"
-
-        app:srcCompat="@drawable/back_arrow" />
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="248dp"
-        android:layout_height="328dp"
-        android:layout_row="1"
-        android:layout_column="1"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <Button
         android:id="@+id/button7"
         android:layout_width="249dp"
         android:layout_height="wrap_content"
-        android:layout_row="2"
+        android:layout_row="1"
         android:layout_column="1"
         android:fontFamily="casual"
         android:text="Agregar"
@@ -73,6 +55,14 @@
         android:text="Siguiente"
         app:backgroundTint="#DA3B39" />
 
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="240dp"
+        android:layout_height="282dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/videollamada" />
 
 
 </GridLayout>

@@ -10,10 +10,10 @@ class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
-        val buton3: Button? = findViewById(R.id.button)
+        val botonActividad: Button? = findViewById(R.id.button)
 
-        buton3?.setOnClickListener {
-            Log.i("prueba","funciona")
+        botonActividad?.setOnClickListener{
+            Log.i("mensaje","Hola Mundo")
             startActivity(Intent(this,PalatalActivities::class.java))
         }
     }

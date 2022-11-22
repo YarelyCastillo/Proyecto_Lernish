@@ -4,42 +4,37 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 
 class PalatalActivities : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pantalla_actividades)
-        val boton_read: Button? = findViewById(R.id.imageButtonRead)
-        val boton_videochat: Button? = findViewById(R.id.imageButtonVideoChat)
-        val boton_images: Button? = findViewById(R.id.imageButtonImages)
-        val boton_audio: Button? = findViewById(R.id.imageButtonAudio)
-        val boton_video: Button? = findViewById(R.id.imageButtonVideo)
-        val boton_chat: Button? = findViewById(R.id.imageButtonChat)
+        val botonCerrarSesion: Button?= findViewById(R.id.button3)
+        val botonLeer :ImageButton?=findViewById(R.id.imageButtonRead)
+        val botonVideo :ImageButton?=findViewById(R.id.imageButtonVideoChat)
+        val botonImagen :ImageButton?=findViewById(R.id.imageButton)
+        val botonAudio :ImageButton?=findViewById(R.id.imageButtonAudio)
+        val botonChat :ImageButton?=findViewById(R.id.imageButtonChat)
 
-
-
-        boton_read?.setOnClickListener {
+        botonCerrarSesion?.setOnClickListener {
+            startActivity(Intent(this,MainActivity::class.java))
+        }
+        botonLeer?.setOnClickListener {
             startActivity(Intent(this,lernish_read::class.java))
         }
-
-        boton_videochat?.setOnClickListener {
+        botonVideo?.setOnClickListener {
             startActivity(Intent(this,lernish_videochat::class.java))
         }
-
-        boton_images?.setOnClickListener {
+        botonImagen?.setOnClickListener {
             startActivity(Intent(this,lernish_image::class.java))
         }
-
-        boton_audio?.setOnClickListener {
+        botonAudio?.setOnClickListener {
             startActivity(Intent(this,lernish_audio::class.java))
         }
-
-        boton_video?.setOnClickListener {
-            startActivity(Intent(this,lernish_videochat::class.java))
-        }
-
-        boton_chat?.setOnClickListener {
+        botonChat?.setOnClickListener {
             startActivity(Intent(this,lernish_chat::class.java))
         }
+
     }
 }
