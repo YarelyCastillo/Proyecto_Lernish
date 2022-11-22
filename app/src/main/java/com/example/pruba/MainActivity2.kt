@@ -13,7 +13,7 @@ class MainActivity2 : AppCompatActivity() {
         val butonRegistrar: Button? = findViewById(R.id.buttonRegistrar)
 
         butonRegistrar?.setOnClickListener {
-            Log.i("prueba","funciona")
+            Log.i("prueba","funcionaa")
             startActivity(Intent(this,PalatalActivities::class.java))
         }
     }
