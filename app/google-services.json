@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "171537355862",
+    "project_id": "lernish-87b10",
+    "storage_bucket": "lernish-87b10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171537355862:android:5991231d903e06cbfc57f7",
+        "android_client_info": {
+          "package_name": "com.example.pruba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171537355862-khkrhgj1nlvc1dr21teg2jcme31ji9b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvEymcLJR_NlECj0YUVl9wc0eXB5vff2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171537355862-khkrhgj1nlvc1dr21teg2jcme31ji9b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
