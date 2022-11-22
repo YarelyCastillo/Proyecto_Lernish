@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:background="@color/white"
     android:gravity="bottom"
     tools:context=".MainActivity"
     tools:ignore="MissingDefaultResource">
@@ -47,6 +48,7 @@
         android:rotationY="-180"
 
         app:srcCompat="@drawable/imagen25" />
+
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="248dp"

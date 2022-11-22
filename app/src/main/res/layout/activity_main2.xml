@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:background="@color/white"
     android:gravity="center"
     tools:context=".MainActivity2">
 
@@ -16,8 +17,8 @@
         android:layout_row="1"
         android:layout_column="0"
         android:layout_gravity="right"
-        app:srcCompat="@drawable/persona"
-        android:contentDescription="TODO" />
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/persona" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -54,7 +55,8 @@
         android:hint="Digite su apellido"
         android:inputType=""
         android:textColor="#54191515"
-        android:textColorHint="#99070707"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="14sp" />
 
     <EditText
@@ -69,7 +71,8 @@
         android:hint="Digite su país"
         android:inputType="textPersonName"
         android:textColor="#54191515"
-        android:textColorHint="#99070707"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="14sp" />
 
     <EditText
@@ -85,7 +88,8 @@
         android:inputType="textPersonName"
         android:shadowColor="#771919"
         android:textColor="#54191515"
-        android:textColorHint="#99070707"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
         android:textColorLink="#530404"
         android:textSize="14sp" />
 
@@ -101,7 +105,8 @@
         android:hint="Digite su ciudad"
         android:inputType="textPersonName"
         android:textColor="#54191515"
-        android:textColorHint="#99070707"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="14sp" />
 
     <EditText
@@ -115,7 +120,8 @@
         android:fontFamily="casual"
         android:hint="Digite su contraseña"
         android:inputType="textPassword"
-        android:textColorHint="#99070707"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="14sp" />
 
     <EditText
@@ -130,7 +136,8 @@
         android:inputType="textEmailAddress"
         android:text="Digite su email"
         android:textColor="#99070707"
-        android:textColorHint="#99070707"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="14sp" />
 
     <EditText
@@ -145,7 +152,8 @@
         android:hint="Digite su edad"
         android:inputType="number"
         android:textColor="#99070707"
-        android:textColorHint="#99070707"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="14sp" />
 
     <EditText
@@ -160,7 +168,8 @@
         android:fontFamily="casual"
         android:hint="Digitela nuevamente"
         android:inputType="textPassword"
-        android:textColorHint="#99070707"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="14sp" />
 
     <SeekBar
@@ -172,7 +181,8 @@
         android:layout_column="1"
         android:layout_gravity="center"
         android:max="4"
-        android:progress="2" />
+        android:progress="2"
+        app:tickMarkTint="@color/black" />
 
     <TextView
         android:id="@+id/textView14"
